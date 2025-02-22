@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-vid">
+        <source src="res/background.mp4" type="video/mp4">
+    </video>
+
+    <div id="header">
+        <div id="banner"> 
+            <h1>Home</h1>
+        </div>
+        <div id="navbar">
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            <a href="https://www.github.com" target="_blank">GitHub</a>
+            <a href="https://www.reddit.com" target="_blank">Reddit</a>
+        </div>
+        <form action="https://www.google.com/search" method="GET" target="_blank" style="padding-left: 5%;">
+            <input type="text" name="q" placeholder="Search..." required id="search-input">
+        </form>
+     </div>
+
+    <div class="item-container">
+        <div class="item-container-title">
+            <h2>Important Links</h2>
+        </div>
+        <div class="links">
+            <a href="https://www.startpage.com" target="_blank">Startpage</a>
+            <a href="https://www.chatgpt.com" target="_blank">ChatGPT</a>
+            <a href="https://www.amazon.de" target="_blank">Amazon</a>
+        </div>
+    </div>
+
+    <div class="item-container">
+        <div class="item-container-title">
+            <h2>Media</h2>
+        </div>
+        <div class="links">
+            <a id="jellyfin" href="#" target="_blank">Jellyfin</a>
+            <a id="immich" href="#" target="_blank">Immich</a>
+        </div>
+    </div>
+
+    <div class="item-container">
+        <div class="item-container-title">
+            <h2>Admin</h2>
+        </div>
+        <div class="links">
+            <a id="portainer" href="#" target="_blank">Portainer</a>
+        </div>
+    </div>
+
+    <!-- config.js contains some private links I don't want to expose. -->
+    <script src="scrips/config.js"></script>
+    <script src="scrips/script.js"></script>
+</body>
+</html>
