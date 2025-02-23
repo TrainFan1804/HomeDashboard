@@ -34,7 +34,7 @@ h2 {
 
 #banner {
     /* background-color: #2070d8; */
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 /* #banner h1 {
@@ -45,7 +45,7 @@ h2 {
     /* background-color: green; */
     list-style-type: none;
     margin: 0;
-    padding: 2% 5% 2% 5%;
+    padding: 2% 10% 2% 10%;
 }
 
 #navbar a {
